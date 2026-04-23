@@ -1,0 +1,11 @@
+export const metadata = {
+  title: 'Guia FODMAP | Nutri Vitor Sandrin',
+  description: 'Guia de alimentos FODMAP para pacientes',
+}
+export default function RootLayout({ children }) {
+  return (
+    <html lang="pt-BR">
+      <body style={{margin:0,padding:0}}>{children}</body>
+    </html>
+  )
+}
